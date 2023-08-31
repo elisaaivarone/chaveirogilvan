@@ -1,0 +1,14 @@
+img {
+  width: 20%;
+}
+nav {
+  background-color: #FDF7F2;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
