@@ -3,60 +3,242 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/public/css/global.css">
   <link rel="stylesheet" href="/public/css/normalize.css">
   <link rel="stylesheet" href="index.css">
   <title>Chaveiro Gilvan</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="/public/assets/image/logo.png" alt="logo da empresa chabeiro Gilvan">
-    <ul class="menu">
-      <li><a href="#home">Início</a></li>
-      <li><a href="#about">Sobre</a></li>
-      <li><a href="#services">Serviços</a></li>
-      <li><a href="#">Vantagens</a></li>
-      <li><a href="#testimonials">Depoimentos</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-  </nav>
+  <header id="header">
+    <nav class="container">
+      <a href="https://fontmeme.com/iron-maiden-font/"><img src="https://fontmeme.com/permalink/230901/4d4e8650d0674eb84a833b01c83f02a2.png" alt="iron-maiden-font" border="0"></a>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#depositions">Depoimentos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
   </header>
-  <section>
-    <h2>Sobre</h2>
-  </section>
-  <section>
-    <div class="container">
-      <h2>Produtos e Serviços</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+
+  <main>
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <img
+            src="/public/assets/image/copia_de_chaves.jpg"
+            alt="maquina de copia de chaves"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">Chaveiros Gilvan</h2>
+          <p>
+            Consertos e aberturas residenciais de todos os tipos de fechaduras, 24 horas por dia. 
+        Atendemos em toda a cidade de São Paulo e região. Venha visitar também a nossa loja física.
+          </p>
+          <a class="button" href="#">Entre em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img
+            src="/public/assets/image/chaveiro_trabalhando.png"
+            alt="chaveiro trabalhando"
+          />
+        </div>
+        <div class="text">
+          <h2 class="title">Sobre nós</h2>
+          <p>
+            Atuamos no mercado a muitos anos, com grande experiência no seguimento de 
+            chaveiro, sempre atuando com rapidez, eficiência, segurança e qualidade.
+          </p>
+          <br />
+          <p>
+            Atendemos toda a cidade de São Paulo e região, 24 horas por dia, 
+            todos os dias da semana.
+          </p>
+          <br />
+          <p>
+            Sempre buscando a excelência no atendimento, somos especializados em chaves e fechaduras residenciais, comerciais, industriais. 
+            Realizamos todo tipo de cópias e trabalhos também, reparos e instalações em geral.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Serviços</h2>
+          <p>
+            Serviços e produtos oferecidos
+          </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="fa-solid fa-house-lock" style="color: #A8A29C;"></i>
+            <h3 class="title">Fechadura em Geral</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              distinctio neque blanditiis, dolorem aperiam nulla explicabo
+              asperiores
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-screwdriver-wrench" style="color: #a8a29c;"></i>
+            <h3 class="title">Consertos e Aberturas</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              distinctio neque blanditiis, dolorem aperiam nulla explicabo
+              asperiores
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-key" style="color: #a8a29c;"></i>
+            <h3 class="title">Chaves para automóveis</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              distinctio neque blanditiis, dolorem aperiam nulla explicabo
+              asperiores
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="testimonials">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Depoimentos</h2>
+          <p>
+            Depoimentos de quem já passou por aqui
+          </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img
+                    src="assets/fotos/foto1.jpeg"
+                    alt="Foto de Wanessa Souza"
+                  />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img
+                    src="assets/fotos/foto1.jpeg"
+                    alt="Foto de Wanessa Souza"
+                  />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img
+                    src="assets/fotos/foto1.jpeg"
+                    alt="Foto de Wanessa Souza"
+                  />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente!</h2>
+          <p>
+            Entre em contato com o Chaveiro Gilvan, queremos tirar suas dúvidas,
+            ouvir suas críticas e sugestões.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=+551199009-0000&text=Oi! Gostaria de agendar um horário"
+            class="button"
+            target="_blank"
+            ><i class="icon-whatsapp"></i> Entrar em contato</a
+          >
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i class="icon-phone"></i> 11 5044-8578</li>
+            <li><i class="icon-map-pin"></i> R. Vieira de Morais, 1597</li>
+            <li><i class="icon-mail"></i> contato@chaveirogilvan.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Chaveiro<span>Gilvan</span>.</a>
+        <p>©2023 Elisa Andrade.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="social">
+        <a href="https://instagram.com" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <i class="icon-facebook"></i
+        ></a>
+        <a href="https://youtube.com" target="_blank"
+          ><i class="icon-youtube"></i
+        ></a>
+      </div>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <h2>Vantagens e Beneficios</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </section>
-  <section>
-    <h2>Depoimentos</h2>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </section>
-  <footer>
-    <h2>Contato</h2>
   </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 </body>
 </html>
