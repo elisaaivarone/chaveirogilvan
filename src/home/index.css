@@ -19,10 +19,6 @@
 }
 
 /* Base */
-html {
- scroll-behavior: smooth;
-}
-
 body {
   font: 400 16px var(--body-font);
   color: var(--text-color);
@@ -49,25 +45,17 @@ body {
 }
 
 .button:hover {
-  background: #A8A29C
+  background: #A8A29C;
 }
 
 .divider-1 {
   height: 1px;
-  background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 36%, 57%, 1),
-    hsla(var(--hue), 65%, 88%, 0.34)
-  );
+  background: #A8A29C;
 }
 
 .divider-2 {
   height: 1px;
-  background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 65%, 88%, 0.34),
-    hsla(var(--hue), 36%, 57%, 1)
-  );
+  background: #A8A29C;
 } 
 
 /* Layout */
@@ -114,32 +102,14 @@ body {
   width: 100%;
 }
 
-#header.scroll {
-  background: var(--base-color);
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
-}
-
-#header.scroll .logo span {
-  color: white;
-}
-
-#header.scroll .icon-menu {
-  color: white;
-}
-
-/* Logo 
-.logo {
-  font: 700 21px var(--title-font);
-  color: var(--title-color);
-}
-
+Logo 
 .logo span {
   color: var(--base-color);
 }
 
 .logo-alt span {
-  color: var(--body-color);
-} */
+  color: #757575;
+}
 
 /* Navigation */
 nav {
@@ -179,14 +149,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-
-/*nav .menu {
-  opacity: 0;
-  visibility: hidden;
-  top: -320px;
-  transition: 0.2s;
-}*/
-
 nav .menu ul {
   display: none;
 }
@@ -270,12 +232,12 @@ nav .menu ul {
 
 #about .image img,
 #about .image::before {
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 #about .text {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* Services */
@@ -308,19 +270,8 @@ nav .menu ul {
   background: white;
 }
 
-#depositions .container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-#depositions header {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 0;
-}
-
 #depositions blockquote {
-  padding: 32px;
+  padding: 30px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
 }
@@ -328,7 +279,7 @@ nav .menu ul {
 #depositions blockquote p {
   position: relative;
   text-indent: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: var(--title-color);
 }
 
@@ -548,9 +499,8 @@ footer .social a:hover {
   }
 
   footer .logo {
-    font-size: 36px;
+    font-size: 30px;
   }
-
 }
 
 /* large devices: 1023 > */

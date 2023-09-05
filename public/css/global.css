@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;500;700&family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400&family=Poppins:wght@100;300;500;600&family=Roboto:wght@100;300;500;700&family=Sedgwick+Ave+Display&display=swap');
 
-body {
-  font-family: 'Phudu', cursive;
-}
 * {
   box-sizing: border-box;
 }
